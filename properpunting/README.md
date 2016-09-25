@@ -6,13 +6,13 @@ To enable easy running of files on both localhost (testing) and web server (live
 
 #### Local web server (localhost with xampp):
 
--Set the environment variable to LOCAL with this code: "$environment = LOCAL;"
--Change line 4 of index.php to "header('Location: http://localhost/properpunting/user/login.php');".
+- Set the environment variable to LOCAL with this code: "$environment = LOCAL;"
+- Change line 4 of index.php to "header('Location: http://localhost/properpunting/user/login.php');".
 
 #### Web server (properpunting.com):
 
--Before uploading files to the web server through ftp ensure to change this to "$environment = WEB;".
--Change line 4 of index.php to "header('Location: http://www.properpunting.com/user/login.php');".
+- Before uploading files to the web server through ftp ensure to change this to "$environment = WEB;".
+- Change line 4 of index.php to "header('Location: http://www.properpunting.com/user/login.php');".
 
 ### Using FTP in sublime text
 
