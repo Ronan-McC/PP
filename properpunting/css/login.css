@@ -1,0 +1,23 @@
+/* ProperPunting login styling */
+
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #FC960F;
+}
+
+#center-area {
+	width: 500px;
+	margin: 175px auto;
+	background-color: #FBFBFB;
+	padding: 25px;
+	border-radius: 20px;
+	box-shadow: -2px -2px 25px #AAAAAA;
+}
+
+#title-text {
+	display: none;
+}
