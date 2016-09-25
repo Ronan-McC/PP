@@ -4,15 +4,15 @@
 
 To enable easy running of files on both localhost (testing) and web server (live) there is an environment variable, in externs.html in the includes folder, that controls the prefix of links. That is whether a link starts with 'http://localhost/properpunting' or 'http://www.properpunting.com'.
 
-##### Local web server (localhost with xampp):
+#### Local web server (localhost with xampp):
 
-Set the environment variable to LOCAL with this code: "$environment = LOCAL;"
-Also change line 4 of index.php to "header('Location: http://localhost/properpunting/user/login.php');".
+-Set the environment variable to LOCAL with this code: "$environment = LOCAL;"
+-Change line 4 of index.php to "header('Location: http://localhost/properpunting/user/login.php');".
 
-##### Web server (properpunting.com):
+#### Web server (properpunting.com):
 
-Before uploading files to the web server through ftp ensure to change this to "$environment = WEB;".
-Also change line 4 of index.php to "header('Location: http://www.properpunting.com/user/login.php');".
+-Before uploading files to the web server through ftp ensure to change this to "$environment = WEB;".
+-Change line 4 of index.php to "header('Location: http://www.properpunting.com/user/login.php');".
 
 ### Using FTP in sublime text
 
