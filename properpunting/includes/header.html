@@ -1,0 +1,18 @@
+		<header>
+			<a href="<?php echo $environment; ?>"><div id="logo-container">
+				<img src="<?php echo $environment; ?>/images/logo-opaque.png" alt="logo">
+			</div></a>
+			<div id="user-profile">
+				<div class="dropdown">
+	    		<a id="name" data-target="#" href="index.php" data-toggle="dropdown" class="dropdown-toggle">
+	    			<p class="lead"><span class="glyphicon glyphicon-user">
+	    			<?php echo $_SESSION['name']; ?>
+	    			<b class="caret"></b></p>
+	    		</a>
+	    		<ul id="account-menu" class="dropdown-menu">
+	        	<li><a href="<?php echo $environment; ?>/user/account.php">Account</a></li>
+	        	<li><a href="<?php echo $environment; ?>/user/logout.php">Logout</a></li>
+	    		</ul>
+				</div>
+			</div>
+		</header>
